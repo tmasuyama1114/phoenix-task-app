@@ -1,0 +1,8 @@
+<.header>
+  New Tasks
+  <:subtitle>Use this form to manage tasks records in your database.</:subtitle>
+</.header>
+
+<.tasks_form changeset={@changeset} action={~p"/tasks"} />
+
+<.back navigate={~p"/tasks"}>Back to tasks</.back>
